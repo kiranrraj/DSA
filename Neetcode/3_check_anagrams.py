@@ -1,5 +1,5 @@
 # Date: 13/08/2025
-# Question: 3 (Version 1)
+# Question: 3 
 # Level: Easy
 # Code: Python
 # Question: Given two strings s and t, return true if the two strings are anagrams of each other, 

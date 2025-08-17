@@ -2,8 +2,9 @@
 # Question: 6
 # Level: Easy
 # Code: Python
-# Question: Given an array nums of size n, return the majority element. The majority element is the element 
-# that appears more than ⌊n / 2⌋ times in the array. You may assume that the majority element always exists in the array.
+# Question: Given an array nums of size n, return the majority element. The majority element 
+#           is the element that appears more than ⌊n / 2⌋ times in the array. You may assume 
+#           that the majority element always exists in the array.
 
 # The Boyer-Moore Voting Algorithm finds the majority element by leveraging the fact that the majority element's 
 # frequency is greater than the combined frequency of all other elements. The algorithm works by pairing each 

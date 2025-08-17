@@ -1,5 +1,5 @@
 # Date: 14/08/2025
-# Question: 4 
+# Question: 4
 # Level: Easy
 # Code: Python
 # Question: You are given an array of strings strs. Return the longest common prefix of all the strings. 

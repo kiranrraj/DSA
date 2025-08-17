@@ -1,8 +1,9 @@
 # Date: 13/08/2025
-# Question: 2 (version 2)
+# Question: 2
 # Level: Easy
 # Code: Python
-# Question: Given an integer array nums, return true if any value appears more than once in the array, otherwise return false.
+# Question: Given an integer array nums, return true if any value appears more than once in the 
+#           array, otherwise return false.
 
 from typing import List
 
