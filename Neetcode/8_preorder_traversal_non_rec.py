@@ -40,3 +40,6 @@ if __name__ == "__main__":
     order = preorder_iterative(root)
     print("Final:")
     print(order)
+
+    # Time Complexity: O(n) 
+    # Space Complexity: O(h) (stack, where h is height of the tree.)
