@@ -6,17 +6,18 @@
 
 
 def mergeAlternately(word1, word2):
-    minLength = min(len(word1),len(word2))
+    n = len(word1)
+    m = len(word2)
+    i = j = 0
     temp = []
 
-    for i in range(minLength): 
-        temp.append(word1[i])
-        temp.append(word2[i])
-
-    if word1[minLength:]:
-        temp.extend(word1[minLength:])
-    elif word2[minLength:]:
-        temp.extend(word2[minLength:])
+    while i < n or j < m:
+        if i < n:
+            temp.append(word1[i])
+        if j < m:
+            temp.append(word2[j])
+        i += 1
+        j += 1
     
     return "".join(temp)
 
