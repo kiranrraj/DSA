@@ -20,7 +20,7 @@ def preorder_iterative(root):
     while stack:
         node = stack.pop()
         res.append(node.val)
-        print(res)
+        # print(res)
         
         # push right first so left is processed next (LIFO)
         if node.right:

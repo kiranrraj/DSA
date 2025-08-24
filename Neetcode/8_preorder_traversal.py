@@ -4,6 +4,18 @@
 # Code: Python
 # Question: Tree Preorder Traversal
 
+# Visit the Root Node:
+#   First, the function processes the current node's value.
+# Traverse Left Subtree: 
+#   It then makes a recursive call on the left child of the current node (dfs(node.left)). 
+#   This process continues down the left side of the tree until a null node is reached.
+# Traverse Right Subtree: 
+#   After the left subtree has been fully traversed, the function returns to the parent and 
+#   then makes a recursive call on the right child (dfs(node.right)).
+# The base case is when a node is None.
+
+# Root -> Left -> Right.
+
 class TreeNode:
     def __init__(self, val, left=None, right=None):
         self.val = val
@@ -17,7 +29,7 @@ def preorder(root):
         if not node:
             return
         result.append(node.val)
-        print(result)
+        # print(result)
         dfs(node.left)
         dfs(node.right)
 
